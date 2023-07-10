@@ -21,14 +21,10 @@ public class Main {
 		    String sql = "SELECT * FROM article";
 		    ResultSet res = stmt.executeQuery(sql);
 		    while(res.next()) {
-                int id = res.getInt("id");
-                String libelé = res.getString("libelé");
-                int prix = res.getInt("prix");
                 
-                System.out.printf("%d\t%s\t\t%d\n", 
-                        id,
-                        libelé,
-                        prix);
+                Article monArticle = new Article(res.getInt(1), res.getString(2), res.getInt(3));
+                System.out.println(monArticle);
+               
                         
         }
 		   
