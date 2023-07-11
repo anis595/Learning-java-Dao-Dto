@@ -1,6 +1,21 @@
 ## STRUCTURE DE L'APPLICATION
+Grâce à cette application vous pourrez:
+* Editer un ticket de caisse
+* supprimer un article
+* ajouter un article
+* modifier un article
+* modifier le prix de la totalité des article
+* ajouter des promotions
+
 ## INSTALLATION
+
+Pour que l'application fonctionne, il vous faudra dans un premier temps installer JAVA et l'IDE Eclipse. <br>
+Lancer "RUN" pour que le projet démarre.
 ## DRIVER MANAGER
+Connexion d'une base de donnée mySQL avec une base de console Java grace à DriverManager Necessite un pilote Installation dans le Module Path Permet la connexion avec JDBC, lien de la doc ci-dessous:
+* https://dev.mysql.com/downloads/connector/j/
+*  https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-usagenotes-connect-drivermanager.html#connector-j-examples-connection-drivermanager
+
 ## LICENCE 
 « Copyright © 2023, copyright Anis Ghedabnia
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -13,3 +28,6 @@ Except as contained in this notice, the name of the <copyright holders> shall no
 
 
 ## BADGE
+
+![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
