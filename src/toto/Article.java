@@ -9,13 +9,27 @@ public class Article {
 
 	private int Id;
 	private String libelle;
+	public void setId(int id) {
+		Id = id;
+	}
+
+	public void setLibelle(String libelle) {
+		this.libelle = libelle;
+	}
+
+	public void setPrix(double prix) {
+		this.prix = prix;
+	}
+
 	private double prix;
 	
-	public Article( int Id, String libelle, double prix) {
-		this.Id = Id;
+	public Article(int id, String libelle, double prix) {
+		super();
+		Id = id;
 		this.libelle = libelle;
 		this.prix = prix;
 	}
+
 
 	    public int getId() {
 	        return Id;
