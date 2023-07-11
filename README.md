@@ -1,4 +1,4 @@
-## STRUCTURE DE L'APPLICATION
+## APPLICATION JAVA DAO/DTO
 Grâce à cette application vous pourrez:
 * Editer un ticket de caisse
 * supprimer un article
