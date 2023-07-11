@@ -31,3 +31,6 @@ Except as contained in this notice, the name of the <copyright holders> shall no
 
 ![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![MySql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+## UML
+![image](https://github.com/anis595/Learning-java-Dao-Dto/assets/117355844/67ab6e39-1e8a-420e-b04c-07097a6770ad)
